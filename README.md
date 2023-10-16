@@ -5,7 +5,7 @@ Scientific applications are increasingly adopting Artificial Intelligence (AI) t
 In this tutorial, we will cover an overview of the AI accelerators landscape with a focus on SambaNova, Cerebras, Graphcore, Groq, and Habana systems along with architectural features and details of their software stacks. We will have hands-on exercises that will help attendees understand how to program these systems by learning how to refactor codes written in standard AI framework implementations and compile and run the models on these systems. The tutorial will enable the attendees with an understanding of the key capabilities of emerging AI accelerators and their performance implications for scientific applications.
 
 
-## Tutorial at Supercomputing 2023
+## Tutorial at SC23
 
 | Date      | Sunday, 12 November 2023     |
 |-----------|------------------------------|
@@ -17,18 +17,18 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 
 | Time(CST)          | Topic                                                   |
 |--------------------|---------------------------------------------------------|
-| 08.30 - 8.35       |  [Introcdution to AI Testbeds at ALCF (ANL)]()                  
+| 08.30 - 8.35       |  [Introduction to AI Testbed at ALCF (ANL)]()                  
 | 08.35 - 8.50       |  [Claire Zhang (Cerebras Systems)]()
 | 08.50 - 9.05       |  [Petro Junior Milan (Sambanova Systems)]()                 
 | 09.05 - 9.20       |  [Alex Tsyplikhin (Graphcore)]()                            
 | 09.20 - 9.35       |  [Sanjif Shanmugavelu (Groq)]()                             
 | 09.35 - 9.50       |  [Leon Tran (Habana)]()                                     
 | **10.00 - 10.30**  |  **Break**
-| 10.30 - 12.00      |  Hands on with AI Testbeds (ANL)
+| 10.30 - 12.00      |  Hands on with AI Testbed (ANL)
 
 ## Hands-On Session
 
-* [Samabanova Hands-On](./Sambaflow/README.md)                                    
+* [Samabanova Hands-On](./SambaNova/README.md)                                    
 * [Graphcore HYands-On](./Graphcore/README.md)  
 * [Cerebras Hands-On](./Cerebras/README.md)    
 * [Groq Hands-On](./Groq/README.md)        

@@ -10,29 +10,29 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 | Date      | Sunday, 12 November 2023     |
 |-----------|------------------------------|
 | Time      | 8:30am - 12:00pm MST         |
-| Location  | 203                          |
+| Location  | 203. Colorado Convention Center, Denver, CO |
 
 
 ## Agenda
 
-| Time(CST)          | Topic                                                   |
+| Time (MST)          | Topic                                                   |
 |--------------------|---------------------------------------------------------|
 | 08.30 - 8.35       |  [Introduction to AI Testbed at ALCF (ANL)]()                  
 | 08.35 - 8.50       |  [Claire Zhang (Cerebras Systems)]()
-| 08.50 - 9.05       |  [Petro Junior Milan (Sambanova Systems)]()                 
+| 08.50 - 9.05       |  [Petro Junior Milan (SambaNova Systems)]()                 
 | 09.05 - 9.20       |  [Alex Tsyplikhin (Graphcore)]()                            
 | 09.20 - 9.35       |  [Sanjif Shanmugavelu (Groq)]()                             
-| 09.35 - 9.50       |  [Leon Tran (Habana)]()                                     
+| 09.35 - 9.50       |  [Leon Tran (Intel Habana)]()                                     
 | **10.00 - 10.30**  |  **Break**
-| 10.30 - 12.00      |  Hands on with AI Testbed (ANL)
+| 10.30 - 12.00      |  Hands session on the AI Testbed (ANL)
 
 ## Hands-On Session
 
-* [Samabanova Hands-On](./SambaNova/README.md)                                    
-* [Graphcore HYands-On](./Graphcore/README.md)  
-* [Cerebras Hands-On](./Cerebras/README.md)    
-* [Groq Hands-On](./Groq/README.md)        
-* [Habana Hands-On](./Habana/README.md)      
+* [SambaNova](./SambaNova/README.md)                                    
+* [Graphcore](./Graphcore/README.md)  
+* [Cerebras](./Cerebras/README.md)    
+* [Groq](./Groq/README.md)        
+* [Habana](./Habana/README.md)      
 
 
 ## Useful Links 
@@ -42,7 +42,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 * [Overview of AI Testbeds at ALCF](https://www.alcf.anl.gov/alcf-ai-testbed)
 * [ALCF AI Testbed Documentation](https://www.alcf.anl.gov/support/ai-testbed-userdocs/)
 * [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
-* [Join Slack Workspace](https://join.slack.com/t/aiacc-sc22-tut/shared_invite/zt-1i6r49ks1-9IxbIk6NM4TdHaEol26Z9Q)
+<!--* [Join Slack Workspace](https://join.slack.com/t/aiacc-sc22-tut/shared_invite/zt-1i6r49ks1-9IxbIk6NM4TdHaEol26Z9Q)-->
 
 ##### Acknowledgements
 

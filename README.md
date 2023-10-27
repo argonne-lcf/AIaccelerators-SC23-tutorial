@@ -35,6 +35,16 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 * [Habana](./Habana/README.md)      
 
 
+## Request Account on AI Testbeds At ALCF
+
+* Request an [ALCF Computer User Account](https://accounts.alcf.anl.gov/accountRequest) if you do not currently have one
+* If you have an ALCF Account that is currently inactive, submit an [account reactivation](https://accounts.alcf.anl.gov/accountReactivate) request*.
+* If you have an active ALCF account, click [Join Project](https://accounts.alcf.anl.gov/joinProject) to submit a membership request. Specify the following in your request: 
+  Project Name: `aitestbed_tutorial`
+
+Contact accounts@alcf.anl.gov M-F 9am to 5pm CT. 
+Reach out to us on slack channel `#help-accounts` on [ALCF-AIAccelerator-tutorials](https://join.slack.com/t/alcf-aiacc-tutorials/shared_invite/zt-25yjc7tnm-AlqTNcWrbH0c1KVNEExTuw) Slack. 
+
 ## Useful Links 
 
 * [SC23 Tutorial Webpage](https://sc23.supercomputing.org/presentation/?id=tut139&sess=sess2121)
@@ -42,7 +52,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 * [Overview of AI Testbeds at ALCF](https://www.alcf.anl.gov/alcf-ai-testbed)
 * [ALCF AI Testbed Documentation](https://www.alcf.anl.gov/support/ai-testbed-userdocs/)
 * [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
-<!--* [Join Slack Workspace](https://join.slack.com/t/aiacc-sc22-tut/shared_invite/zt-1i6r49ks1-9IxbIk6NM4TdHaEol26Z9Q)-->
+* [Join Slack Workspace](https://join.slack.com/t/alcf-aiacc-tutorials/shared_invite/zt-25yjc7tnm-AlqTNcWrbH0c1KVNEExTuw)
 
 ##### Acknowledgements
 

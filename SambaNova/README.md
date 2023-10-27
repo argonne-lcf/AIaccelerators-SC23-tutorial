@@ -28,7 +28,7 @@ Sambanova software stack and associated environmental variables are setup at log
 
 Each of the samples or application examples provided by SambaNova has its own pre-built virtual environment which can be readily used. They are present in the `/opt/sambaflow/apps/` directory tree within each of the applications. 
 
-# Steps to run GPT13B on SambaNova DataScale SN30
+# Steps to run GPT13B SS2k on SambaNova DataScale SN30
 
 **Note**: for the sake of the tutorial, we have precompiled the model and lowered the batch size and number of train steps to reduce the execution time.
 
@@ -55,7 +55,54 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
 4. You can follow the status of your job using: `squeue`. The job should take about 7 min to complete.
 
+5. Once the job is completed, you can see the checkpoint(s) and accuracy metrics in `hf_output_ss2k_run/`. The throughput is outputted toward the end of the log file.
 
+   <details>
+    <summary>Click for sample throughput</summary>
+
+   ```bash
+   2023-10-23 22:30:31,828 - apps.nlp.transformers_on_rdu.tasks.lm_tasks.gpt2_task - Process ID 2232802 - info     - {'e2e_train_time': 281.6137180328369, 'e2e_training_tokens_per_second': 9308.637442492533, 'training_tokens_per_second(exclude warmup overhead)': 10053.022322804007, 'final_loss': 9.262810707092285}
+    ```
+
+    </details>
+
+    <details>
+    <summary>Click for sample train_steps.txt</summary>
+
+    ```bash
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    ```
+
+    </details>
+
+   <details>
+    <summary>Click for sample train_loss.txt</summary>
+
+    ```bash
+   11.62805
+   10.81699
+   10.12060
+   9.91110
+   9.92652
+   9.87338
+   9.54991
+   9.52660
+   9.31008
+   9.31859
+    ```
+
+    </details>
+
+# Additional Resources
 
 ## Run Examples 
 

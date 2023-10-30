@@ -104,7 +104,7 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
 # Steps to run GPT13B SS8k on SambaNova DataScale SN30 using 8 RDUs
 
-**Note**: for the sake of the tutorial, we have precompiled the model and lowered the batch size and number of train steps to reduce the execution time.
+**Note**: similarly here, we have precompiled the model and lowered the batch size and number of train steps to reduce the execution time.
 
 1. Create a folder in your home repo, and copy the bash script `/projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss8k_run.sh` to it. Then, go to that folder. Example:
    

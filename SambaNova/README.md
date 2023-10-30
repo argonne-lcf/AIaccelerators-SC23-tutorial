@@ -119,7 +119,7 @@ Each of the samples or application examples provided by SambaNova has its own pr
    ```bash
    OUTDIR=${HOME}/gpt_13b_ss8k
    ```
-   Note: here, the per device effective batch size is set to 32 and the grad accumulation steps to 4. Also, the number of steps is set to 10, but this can be changed. 
+   Note: here, the per device effective batch size is set to 32 and the grad accumulation steps to 4. Also, the number of train steps is set to 10, but this can be changed. 
 
 2. Submit your job. In the following example, 8 RDUs are used:
    ```bash

@@ -58,7 +58,7 @@ Each of the samples or application examples provided by SambaNova has its own pr
 5. Once the job is completed, you can see the checkpoint(s) and accuracy metrics in `hf_output_ss2k_run/`. The throughput is outputted toward the end of the log file.
 
    <details>
-    <summary>Click for sample throughput</summary>
+    <summary>Click for sample throughput (in the log file) </summary>
 
    ```bash
    2023-10-23 22:30:31,828 - apps.nlp.transformers_on_rdu.tasks.lm_tasks.gpt2_task - Process ID 2232802 - info     - {'e2e_train_time': 281.6137180328369, 'e2e_training_tokens_per_second': 9308.637442492533, 'training_tokens_per_second(exclude warmup overhead)': 10053.022322804007, 'final_loss': 9.262810707092285}
@@ -128,7 +128,53 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
 4. You can follow the status of your job using: `squeue`. The job should take about 40 min to complete.
 
-5. Once the job is completed, you can see the checkpoint(s) and accuracy metrics in `hf_output_ss2k_run/`. The throughput is outputted toward the end of the log file.
+5. Once the job is completed, you can see the checkpoint(s) and accuracy metrics in `hf_output_ss8k_run/`. The throughput is outputted toward the end of the log file.
+
+   <details>
+    <summary>Click for sample throughput (in the log file) </summary>
+
+   ```bash
+   2023-10-19 18:51:05,078 - apps.nlp.transformers_on_rdu.tasks.lm_tasks.gpt2_task - Process ID 2113989 - info     - {'e2e_train_time': 2108.547765493393, 'e2e_training_tokens_per_second': 9945.954435181, 'training_tokens_per_second(exclude warmup overhead)': 9982.400975110926, 'final_loss': 9.63994312286377}
+    ```
+
+    </details>
+
+    <details>
+    <summary>Click for sample train_steps.txt</summary>
+
+    ```bash
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    ```
+
+    </details>
+
+   <details>
+    <summary>Click for sample train_loss.txt</summary>
+
+    ```bash
+    11.68751
+    11.00082
+    10.47742
+    10.13235
+    10.24535
+    9.89494
+    9.91229
+    9.84982
+    9.70802
+    9.60737
+    ```
+
+    </details>
+
 
 # Additional Resources
 

@@ -50,7 +50,7 @@ Each of the samples or application examples provided by SambaNova has its own pr
 3. SambaNova uses SLURM for job submission and queueing. We will use sbatch to submit our job to the job scheduler. Please refer to [Sambanova Documentation](https://docs.alcf.anl.gov/ai-testbed/sambanova/job-queuing-and-submission/) for further details. In the following example, 4 RDUs are used:
 
    ```bash
-   $ sbatch --output=log_gpt13b_ss2k_run.out --ntasks 4 --ntasks-per-node 4 --nodes 1 --gres=rdu:1 --cpus-per-task=32 Gpt13b_ss2k_run.sh
+   sbatch --output=log_gpt13b_ss2k_run.out --ntasks 4 --ntasks-per-node 4 --nodes 1 --gres=rdu:1 --cpus-per-task=32 Gpt13b_ss2k_run.sh
    ```
 
 4. You can follow the status of your job using: `squeue`. The job should take about 7 min to complete.
@@ -123,7 +123,7 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
 2. Submit your job. In the following example, 8 RDUs are used:
    ```bash
-   $ sbatch --output=log_gpt13b_ss8k_run.out --ntasks 8 --ntasks-per-node 8 --nodes 1 --gres=rdu:1 --cpus-per-task=16 Gpt13b_ss8k_run.sh
+   sbatch --output=log_gpt13b_ss8k_run.out --ntasks 8 --ntasks-per-node 8 --nodes 1 --gres=rdu:1 --cpus-per-task=16 Gpt13b_ss8k_run.sh
    ```
 
 4. You can follow the status of your job using: `squeue`. The job should take about 40 min to complete.

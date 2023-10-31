@@ -178,21 +178,14 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
 # Additional Resources
 
-## Run Examples 
+## Run Other Examples 
 
-* [Lenet](./lenet.md)
-* [GPT](./gpt.md)
+* See [Example Programs](https://docs.alcf.anl.gov/ai-testbed/sambanova/example-programs/) for instructions to run other well-known AI applications on SambaNova hardware (e.g., LeNet, MNIST, logistic regression, UNet2D, and GPT 1.5B)
 
-## Useful Directories 
+## Useful Directories and Documentation
 
-* Sambanova Applications Path : `/opt/sambaflow/apps`
-* Sambanova Model Scripts : `/data/ANL/scripts`
-* Important Datasets  : `/software/sambanova/dataset`
-
-# Useful Resources 
-
-* [ALCF Sambanova Documentation](https://docs.alcf.anl.gov/ai-testbed/sambanova_gen2/getting-started/)
+* [ALCF Sambanova Documentation](https://docs.alcf.anl.gov/ai-testbed/sambanova/getting-started/)
 * [Sambanova Documentation](https://docs.sambanova.ai/developer/latest/sambaflow-intro.html) 
-* Sambanova Applications Path: `/opt/sambaflow/apps/`
-* Sambanova Model scripts: `/data/ANL/scripts/`
-* Important Datasets: `/software/sambanova/dataset/`
+* Sambanova applications path: `/opt/sambaflow/apps/`
+* Sambanova model scripts: `/data/ANL/scripts/`
+* Important datasets: `/software/sambanova/dataset/`

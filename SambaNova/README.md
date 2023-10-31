@@ -28,7 +28,7 @@ Sambanova software stack and associated environmental variables are setup at log
 
 Each of the samples or application examples provided by SambaNova has its own pre-built virtual environment which can be readily used. They are present in the `/opt/sambaflow/apps/` directory tree within each of the applications. 
 
-# Demo 1 - Steps to run GPT13B SS2k on SambaNova DataScale SN30 using 4 RDUs
+# Demo 1 - Steps to run GPT 13B SS2k on SambaNova DataScale SN30 using 4 RDUs
 
 **Note**: for the sake of the tutorial, we have precompiled the model and lowered the batch size and number of train steps to reduce the execution time.
 
@@ -102,7 +102,7 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
     </details>
 
-# Demo 2 - Steps to run GPT13B SS8k on SambaNova DataScale SN30 using 8 RDUs
+# Demo 2 - Steps to run GPT 13B SS8k on SambaNova DataScale SN30 using 8 RDUs
 
 **Note**: similarly here, we have precompiled the model and lowered the batch size and number of train steps to reduce the execution time.
 

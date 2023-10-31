@@ -53,15 +53,15 @@ Each of the samples or application examples provided by SambaNova has its own pr
    sbatch --output=log_gpt13b_ss2k_run.out --ntasks 4 --ntasks-per-node 4 --nodes 1 --gres=rdu:1 --cpus-per-task=32 Gpt13b_ss2k_run.sh
    ```
 
-4. You can follow the status of your job using: `squeue`. The job should take about 7 min to complete.
+4. You can follow the status of your job using: `squeue`. The job should take about 8 min to complete.
 
-5. Once the job is completed, you can see the checkpoint(s) and accuracy metrics in `hf_output_ss2k_run/`. The throughput is outputted toward the end of the log file.
+5. Once the job is completed, you can see the accuracy metrics and checkpoint(s) (if enabled) in `hf_output_ss2k_run/`. The throughput is outputted toward the end of the log file.
 
    <details>
     <summary>Click for sample throughput (in the log file) </summary>
 
    ```bash
-   2023-10-23 22:30:31,828 - apps.nlp.transformers_on_rdu.tasks.lm_tasks.gpt2_task - Process ID 2232802 - info     - {'e2e_train_time': 281.6137180328369, 'e2e_training_tokens_per_second': 9308.637442492533, 'training_tokens_per_second(exclude warmup overhead)': 10053.022322804007, 'final_loss': 9.262810707092285}
+   {'e2e_train_time': 262.1321773529053, 'e2e_training_tokens_per_second': 10000.451018536301, 'training_tokens_per_second(exclude warmup overhead)': 10052.111972340099, 'final_loss': 9.262810707092285}
     ```
 
     </details>

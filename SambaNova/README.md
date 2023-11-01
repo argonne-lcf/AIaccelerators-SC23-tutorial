@@ -127,15 +127,15 @@ Each of the samples or application examples provided by SambaNova has its own pr
    sbatch --output=log_gpt13b_ss8k_run.out --ntasks 8 --ntasks-per-node 8 --nodes 1 --gres=rdu:1 --cpus-per-task=16 Gpt13b_ss8k_run.sh
    ```
 
-4. You can follow the status of your job using: `squeue`. The job should take about 40 min to complete.
+4. You can follow the status of your job using: `squeue`. The job should take about 42 min to complete.
 
-5. Once the job is completed, you can see the checkpoint(s) and accuracy metrics in `hf_output_ss8k_run/`. The throughput is outputted toward the end of the log file.
+5. Once the job is completed, you can see the accuracy metrics and checkpoint(s) (if enabled) in `hf_output_ss8k_run/`. The throughput is outputted toward the end of the log file.
 
    <details>
     <summary>Click for sample throughput (in the log file) </summary>
 
    ```bash
-   2023-10-19 18:51:05,078 - apps.nlp.transformers_on_rdu.tasks.lm_tasks.gpt2_task - Process ID 2113989 - info     - {'e2e_train_time': 2108.547765493393, 'e2e_training_tokens_per_second': 9945.954435181, 'training_tokens_per_second(exclude warmup overhead)': 9982.400975110926, 'final_loss': 9.63994312286377}
+   {'e2e_train_time': 2103.653220653534, 'e2e_training_tokens_per_second': 9969.095568653116, 'training_tokens_per_second(exclude warmup overhead)': 9987.196849027754, 'final_loss': 9.63991928100586}
     ```
 
     </details>
@@ -163,15 +163,15 @@ Each of the samples or application examples provided by SambaNova has its own pr
 
     ```bash
     11.68751
-    11.00082
-    10.47742
-    10.13235
-    10.24535
+    11.00089
+    10.47739
+    10.13234
+    10.24533
     9.89494
-    9.91229
-    9.84982
-    9.70802
-    9.60737
+    9.91220
+    9.84972
+    9.70797
+    9.60735
     ```
 
     </details>

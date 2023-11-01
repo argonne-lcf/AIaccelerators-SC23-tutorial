@@ -2,17 +2,21 @@
 
 ## Connection to Sambanova 
 
+Connection to a SambaNova node is a two-step process. The first step is to `ssh` to the `login node`. The second step is to log in to a SambaNova node from the `login node`.
+
 ![Sambanova connection diagram](./sambanova_login.jpg)
 
 Login to the Sambanova login node from your local machine.
-Once you are on the login node, ssh to one of the sambanova nodes.
-
 ```bash
 local > ssh ALCFUserID@sambanova.alcf.anl.gov
+```
+
+Once you are on the login node, ssh to one of the sambanova nodes.
+```bash
 sm-login-1 > ssh sn30-r1-h1       
 ```
 
-You can also ssh to `sn30-r1-h1 , sn30-r1-h2, sn30-r2-h1, sn30-r2-h2, sn30-r3-h1, sn30-r3-h2, sn30-r4-h1, sn30-r4-h2`
+You can also ssh to `sn30-r1-h1` , `sn30-r1-h2`, `sn30-r2-h1`, `sn30-r2-h2`, `sn30-r3-h1`, `sn30-r3-h2`, `sn30-r4-h1`, `sn30-r4-h2`.
 
 ## Sambanova Examples
 

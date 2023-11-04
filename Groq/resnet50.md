@@ -32,9 +32,9 @@ python resnet50.py
 ```
 <details>
   <summary>Sample Output</summary>
-  
-    ```bash
-    $ python resnet50.py 
+
+  ```bash
+  $ python resnet50.py 
     Downloading: "https://github.com/pytorch/vision/zipball/v0.10.0" to /home/sraskar/.cache/torch/hub/v0.10.0.zip
     Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /home/sraskar/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
     100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 97.8M/97.8M [00:00<00:00, 254MB/s]

@@ -108,8 +108,9 @@ Other flags that can be used
 ## Run Examples
 
 Refer to respective instrcutions below 
-* [MiniLMv2](./minilm.md)
 * [ResNet50](./resnet50.md)
+* [MiniLMv2](./minilm.md)
+
 
 ## Useful Resources 
 

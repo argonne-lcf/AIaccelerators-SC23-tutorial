@@ -56,6 +56,6 @@ Reach out to us on slack channel `#help-accounts` on [ALCF-AIAccelerator-tutoria
 
 ##### Acknowledgements
 
-Contributors: Sid Raskar, Varuni Sastry, Bill Arnold, Murali Emani. 
+Contributors: [Siddhisanket (Sid) Raskar](https://sraskar.github.io/), Varuni Sastry, Bill Arnold, [Murali Emani](https://memani1.github.io/). 
 
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.

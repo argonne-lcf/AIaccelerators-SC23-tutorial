@@ -1,4 +1,4 @@
-# GPT on Sambanova
+# GPT 1.5B Parameter on Sambanova
 
 ##### Create and and move to the following directory.
 

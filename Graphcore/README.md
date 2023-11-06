@@ -107,6 +107,7 @@ Refer to respective instrcutions below
 
 ## Useful Resources 
 
+* [ALCF Graphcore Documentation](https://docs.alcf.anl.gov/ai-testbed/graphcore/system-overview/)
 * [Graphcore Documentation](https://docs.graphcore.ai/en/latest/)
 * [Graphcore Examples Repository](https://github.com/graphcore/examples)
 * Graphcore SDK Path: `/software/graphcore/poplar_sdk`

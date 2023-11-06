@@ -83,6 +83,7 @@ Refer to respective instrcutions below
 
 # Useful Resources 
 
+* [ALCF Cerebras Documentation](https://docs.alcf.anl.gov/ai-testbed/cerebras/system-overview/)
 * [Cerebras Documntation](https://docs.cerebras.net/en/latest/wsc/index.html)
 * [Cerebras Modelzoo Repo](https://github.com/Cerebras/modelzoo/tree/main/modelzoo)
 * Datasets Path: `/software/cerebras/dataset`

@@ -114,6 +114,7 @@ Refer to respective instrcutions below
 
 ## Useful Resources 
 
+* [ALCF Groq Documenation](https://docs.alcf.anl.gov/ai-testbed/groq/system-overview/)
 * [Groq Documentation](https://support.groq.com/#/login)
 * [Groq Examples Repository](https://github.com/groq/groqflow/tree/main/proof_points)
-* [ALCF Groq Documenation](https://docs.alcf.anl.gov/ai-testbed/groq/system-overview/)
+

@@ -22,7 +22,7 @@ To run scripts, users should first launch respective pre-built Docker containers
 For convenience PyTorch Docker container launch script is available 
 ```bash
 cd ~
-bash pyt.dock.sh
+bash pyt_dock.sh
 ```
 
 <details>
@@ -53,7 +53,7 @@ bash pyt.dock.sh
 For convenience PyTorch Docker container launch script is available 
 ```bash
 cd ~
-bash tf.dock.sh
+bash tf_dock.sh
 ```
 <details>
   <summary>Contents of tf_dock.sh</summary>

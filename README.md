@@ -45,6 +45,16 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 Contact accounts@alcf.anl.gov M-F 9am to 5pm CT. 
 Reach out to us on slack channel `#help-accounts` on [ALCF-AIAccelerator-tutorials](https://join.slack.com/t/alcf-aiacc-tutorials/shared_invite/zt-25yjc7tnm-AlqTNcWrbH0c1KVNEExTuw) Slack. 
 
+>SC23 Tutorial allocation will stay active till end of November 2023. 
+
+### Director’s Discretionary Allocation Program
+
+To gain access to AI Testbeds at ALCF after tutorial allocation expires apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
+
+The ALCF Director’s Discretionary program provides “start up” awards to researchers working to achieve computational readiness for for a major allocation award.
+
+
+
 ## Useful Links 
 
 * [SC23 Tutorial Webpage](https://sc23.supercomputing.org/presentation/?id=tut139&sess=sess2121)

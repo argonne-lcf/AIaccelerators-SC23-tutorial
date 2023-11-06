@@ -18,11 +18,11 @@ In this tutorial, we will cover an overview of the AI accelerators landscape wit
 | Time (MST)          | Topic                                                   |
 |--------------------|---------------------------------------------------------|
 | 08.30 - 8.35       |  [Introduction to AI Testbed at ALCF (ANL)]()                  
-| 08.35 - 8.50       |  [Claire Zhang (Cerebras Systems)]()
-| 08.50 - 9.05       |  [Petro Junior Milan (SambaNova Systems)]()                 
-| 09.05 - 9.20       |  [Alex Tsyplikhin (Graphcore)]()                            
-| 09.20 - 9.35       |  [Sanjif Shanmugavelu (Groq)]()                             
-| 09.35 - 9.50       |  [Leon Tran (Intel Habana)]()                                     
+| 08.35 - 8.50       |  [Claire Zhang (Cerebras Systems)](./Slides/SC23_Tutorial_Cerebras.pdf)
+| 08.50 - 9.05       |  [Petro Junior Milan (SambaNova Systems)](./Slides/SC23_Tutorial_SambaNova.pdf)                 
+| 09.05 - 9.20       |  [Alex Tsyplikhin (Graphcore)](./Slides/SC23_Tutorial_Graphcore.pdf)                            
+| 09.20 - 9.35       |  [Sanjif Shanmugavelu (Groq)](./Slides/SC23_Tutorial_Groq.pdf)                             
+| 09.35 - 9.50       |  [Leon Tran (Intel Habana)](./Slides/SC23_Tutorial_Habana.pdf)                                     
 | **10.00 - 10.30**  |  **Break**
 | 10.30 - 12.00      |  Hands session on the AI Testbed (ANL)
 

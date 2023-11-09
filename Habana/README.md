@@ -84,7 +84,9 @@ bash tf_dock.sh
 ## Run Examples
 
 Refer to respective instrcutions below 
-* [MNIST](./mnist.md)
+* [MNIST](./mnist.ipynb)
+* [Model Migration](./model_migrate.ipynb)
+* [Stable Diffusion](./stable_diffusion_v_2_1.ipynb)
 
 
 ## Useful Resources 

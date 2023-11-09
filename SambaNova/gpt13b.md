@@ -8,10 +8,10 @@
 1. Create a folder in your home repo, and copy the bash script `/projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss2k_run.sh` to it. Then, go to that folder. Example:
 
    ```bash
-   $ cd $HOME
-   $ mkdir gpt_13b_ss2k
-   $ cp /projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss2k_run.sh gpt_13b_ss2k/
-   $ cd gpt_13b_ss2k/
+   cd $HOME
+   mkdir gpt_13b_ss2k
+   cp /projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss2k_run.sh gpt_13b_ss2k/
+   cd gpt_13b_ss2k/
    ```
 
 2. Open the `Gpt13b_ss2k_run.sh` file, and change `OUTDIR` to location of the run folder. Example:
@@ -82,10 +82,10 @@
 1. Create a folder in your home repo, and copy the bash script `/projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss8k_run.sh` to it. Then, go to that folder. Example:
    
    ```bash
-   $ cd $HOME
-   $ mkdir gpt_13b_ss8k
-   $ cp /projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss8k_run.sh gpt_13b_ss8k/
-   $ cd gpt_13b_ss8k/
+   cd $HOME
+   mkdir gpt_13b_ss8k
+   cp /projects/aitestbed_training/SN/precompiled_gpt/bash_scripts/Gpt13b_ss8k_run.sh gpt_13b_ss8k/
+   cd gpt_13b_ss8k/
    ```
 
 2. Open the `Gpt13b_ss8k_run.sh` file, and change `OUTDIR` to location of the run folder. Example:

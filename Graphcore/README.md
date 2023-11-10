@@ -45,7 +45,18 @@ export POPLAR_SDK_ROOT=$POPLAR_SDK_ROOT
 pip install $POPLAR_SDK_ROOT/tensorflow-2.6.3+gc3.3.0+251580+08d96978c7f+amd_znver1-cp38-cp38-linux_x86_64.whl
 pip install $POPLAR_SDK_ROOT/keras-2.6.0+gc3.3.0+251582+a3785372-py2.py3-none-any.whl
 ```
+## Miscellaneous Environment Variables
+```bash
+mkdir ~/tmp
+export TF_POPLAR_FLAGS=--executable_cache_path=~/tmp
+export POPTORCH_CACHE_DIR=~/tmp
 
+export POPART_LOG_LEVEL=WARN
+export POPLAR_LOG_LEVEL=WARN
+export POPLIBS_LOG_LEVEL=WARN
+
+export PYTHONPATH=/software/graphcore/poplar_sdk/3.3.0/poplar-ubuntu_20_04-3.3.0+7857-b67b751185/python:$PYTHONPATH
+```
 ## Clone Graphcore Examples
 
 We use examples from [Graphcore Examples repository](https://github.com/graphcore/examples) for this hands-on. 

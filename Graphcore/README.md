@@ -80,6 +80,13 @@ e.g. `srun --ipus=1 python mnist_poptorch.py`
 * `squeue` : command provides information about jobs located in the Slurm scheduling queue.
 * `sCancel` : is used to signal or cancel jobs, job arrays, or job steps.
 
+## Run Examples
+
+Refer to respective instrcutions below 
+* [MNIST](./mnist.md)
+<!--- * [Resnet50 using replication factor](./resnet50.md) --->
+* [GPT2](./gpt2.md)
+
 ## Profiling 
 
 We will use Pop Vision Graph Analyzer and System Analyzer to produce profiles. 
@@ -110,13 +117,6 @@ $ PVTI_OPTIONS='{"enable":"true", "directory": "./system_profile"}' python mnist
 This will generate all the system profiling reports and save the output to system_profile directory.
 
 To visualize the profiles, download generated profiles to a local machine and open them using PopVision Graph Analyzer. 
-
-## Run Examples
-
-Refer to respective instrcutions below 
-* [MNIST](./mnist.md)
-<!--- * [Resnet50 using replication factor](./resnet50.md) --->
-* [GPT2](./gpt2.md)
 
 ## Useful Resources 
 

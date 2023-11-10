@@ -55,6 +55,8 @@ mkdir ~/graphcore
 cd ~/graphcore
 git clone https://github.com/graphcore/examples.git
 cd examples
+git tag
+git checkout v3.3.0
 ```
 
 ## Job Queuing and Submission

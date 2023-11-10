@@ -1,6 +1,6 @@
 # BERT-Large on Cerebras
 
-Go to directory with fc_mnist example. 
+Go to directory with the bert example. 
 ```bash
 cd ~/R_1.9.2/modelzoo/modelzoo/transformers/pytorch/bert
 ```

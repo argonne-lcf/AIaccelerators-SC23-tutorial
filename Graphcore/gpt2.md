@@ -12,7 +12,7 @@ Create a new PopTorch Environment
 POPLAR_SDK_ROOT=/software/graphcore/poplar_sdk/3.3.0/
 export POPLAR_SDK_ROOT=$POPLAR_SDK_ROOT
 
-virtualenv ~/Graphcore/workspace/source ~/venvs/graphcore/poptorch33_gpt2/bin/activate
+virtualenv ~/venvs/graphcore/poptorch33_gpt2
 source ~/venvs/graphcore/poptorch33_gpt2/bin/activate
 pip install $POPLAR_SDK_ROOT/poptorch-3.3.0+113432_960e9c294b_ubuntu_20_04-cp38-cp38-linux_x86_64.whl
 export PYTHONPATH=$POPLAR_SDK_ROOT/python:$PYTHONPATH

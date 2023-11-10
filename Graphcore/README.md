@@ -87,6 +87,10 @@ Refer to respective instrcutions below
 <!--- * [Resnet50 using replication factor](./resnet50.md) --->
 * [GPT2](./gpt2.md)
 
+```bash
+Note: Precompiled artifacts are present at the /software/graphcore/projects/models_compile location for the above models.
+copy them to your ~/tmp and set export POPTORCH_CACHE_DIR=~/tmp to skip the compile process.
+```
 ## Profiling 
 
 We will use Pop Vision Graph Analyzer and System Analyzer to produce profiles. 

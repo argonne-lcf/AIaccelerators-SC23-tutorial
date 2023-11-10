@@ -81,6 +81,7 @@ See `csctl -h` for more options.
 Refer to respective instrcutions below 
 * [FC-MNIST](./fc-mnist.md)
 * [BERT-Large](./bert-large.md)
+* [GPT-J](./gpt-j.md)
 
 # Useful Resources 
 

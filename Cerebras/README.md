@@ -18,15 +18,15 @@ ssh ALCFUserID@cerebras.ai.alcf.anl.gov
 ```bash
 #Make your home directory navigable
 chmod a+xr ~/
-mkdir ~/R_1.9.1
-chmod a+x ~/R_1.9.1/
-cd ~/R_1.9.1
+mkdir ~/R_1.9.2
+chmod a+x ~/R_1.9.2/
+cd ~/R_1.9.2
 # Note: "deactivate" does not actually work in scripts.
 deactivate
 rm -r venv_pt
 /software/cerebras/python3.8/bin/python3.8 -m venv venv_pt
 source venv_pt/bin/activate
-pip3 install /opt/cerebras/wheels/cerebras_pytorch-1.9.1+1cf4d0632b-cp38-cp38-linux_x86_64.whl --find-links=/opt/cerebras/wheels
+pip3 install /opt/cerebras/wheels/cerebras_pytorch-1.9.2+92b4fad15b-cp38-cp38-linux_x86_64.whl --find-links=/opt/cerebras/wheels
 pip install numpy==1.23.4
 pip install datasets transformers
 ```
@@ -35,9 +35,9 @@ pip install datasets transformers
 
 ```bash
 chmod a+xr ~/
-mkdir ~/R_1.9.1
-chmod a+x ~/R_1.9.1/
-cd ~/R_1.9.1
+mkdir ~/R_1.9.2
+chmod a+x ~/R_1.9.2/
+cd ~/R_1.9.2
 # Note: "deactivate" does not actually work in scripts.
 deactivate
 rm -r venv_tf
@@ -45,17 +45,18 @@ rm -r venv_tf
 source venv_tf/bin/activate
 #pip install tensorflow_datasets
 #pip install spacy
-pip3 install /opt/cerebras/wheels/cerebras_tensorflow-1.9.1+1cf4d0632b-cp38-cp38-linux_x86_64.whl --find-links=/opt/cerebras/wheels/
+pip3 install pip3 install /opt/cerebras/wheels/cerebras_tensorflow-1.9.2+92b4fad15b-cp38-cp38-linux_x86_64.whl --find-links=/opt/cerebras/wheels/
 pip install numpy==1.23.4
 ```
 --->
 ## Clone Cerebras modelzoo
 
 We use example from [Cerebras Modelzoo repository](https://github.com/Cerebras/modelzoo) for this hands-on. 
-Clone the modezoo repository.
+Clone the modezoo repository.<br>
+Note: For virtual environent R_1.9.2, the modelzoo is unchanged from R_1.9.1. 
 ```bash
-mkdir ~/R_1.9.1
-cd ~/R_1.9.1
+mkdir ~/R_1.9.2
+cd ~/R_1.9.2
 git clone https://github.com/Cerebras/modelzoo.git
 cd modelzoo
 git tag

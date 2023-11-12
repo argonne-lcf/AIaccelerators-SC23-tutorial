@@ -15,8 +15,6 @@ Refer to respective instrcutions below
 
 ## Useful Resources 
 
-* Link to Datasets: `/data`
-* Link to Model references: `/root/gaudi2_root/Model-References`
 * [Habana Documentation](https://docs.habana.ai/en/latest/)
 * [Habana Examples Repository](https://github.com/HabanaAI/Model-References)
 * [Gaudi2-Workshop](https://github.com/HabanaAI/Gaudi2-Workshop)
